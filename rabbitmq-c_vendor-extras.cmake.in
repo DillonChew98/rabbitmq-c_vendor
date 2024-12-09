@@ -1,6 +1,2 @@
-if(WIN32)
-  set(rabbitmq-c_DIR "${@PROJECT_NAME@_DIR}/../../../opt/rabbitmq-c_vendor/CMake")
-else()
-  set(rabbitmq-c_DIR "${@PROJECT_NAME@_DIR}/../../../opt/rabbitmq-c_vendor/share/cmake/rabbitmq-c")
-endif()
+set(rabbitmq-c_DIR "${@PROJECT_NAME@_DIR}/../../../opt/rabbitmq-c_vendor/share/cmake/rabbitmq-c")
 message(STATUS "Setting rabbitmq-c_DIR to: '${rabbitmq-c_DIR}'")
