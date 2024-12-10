@@ -12,7 +12,7 @@ set(RABBITMQC_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 ament_vendor(rabbitmq-c_vendor
   SATISFIED ${rabbitmq-c_FOUND}
   VCS_URL https://github.com/alanxz/rabbitmq-c.git
-  VCS_VERSION v0.9.0-master
+  VCS_VERSION v0.15.0
   GLOBAL_HOOK
   CMAKE_ARGS
     "-DCMAKE_CXX_FLAGS=${RABBITMQC_CXX_FLAGS}"
